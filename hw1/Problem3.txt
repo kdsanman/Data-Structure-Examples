@@ -1,0 +1,44 @@
+/* 
+ * Problem3.txt - Includes results for Problem3 run and compares results to
+ * actual Big-Oh run time
+ */
+ 
+ 
+Results for fragment 1:
+	a. n = 1 : 4901
+	b. n = 2 : 1337
+	c. n = 4 : 1571
+	d. n = 16 : 5050
+	e. n = 32 : 15201
+	
+	Expected running time: O(N^2)
+	Observations: The immense amount of time calculated for n = 1 can be
+	disregarded because it's the first time the program is called. I think
+	it does looks like the running time is about N^2 because of the jump from
+	16 to 32.
+	
+Results for fragment 2:
+	a. n = 1 : 5938
+	b. n = 2 : 830
+	c. n = 4 : 923
+	d. n = 8 : 1442
+	e. n = 16 : 2524
+	f. n = 32 : 7771
+	
+	Expected running time: O(N^2)
+	Observations: The initial time calculated for n = 1 can be disregarded
+	because it's the first time the method is called. These results look pretty
+	linear,so in this case it looks like its on O(N), instead of O(N^2).
+	
+Results for fragment 3:
+	a. n = 1 : 5437
+	b. n = 2 : 386
+	c. n = 4 : 570
+	d. n = 16 : 760
+	e. n = 32 : 799
+
+	Expected running time: O(N)
+	Observations: The initial time calculated for n = 1 can be disregarded
+	because it's the first time the method is called. The expected running
+	time is O(N), and the calculations look pretty linear so I would say
+	that in this case the results came out as expected.
