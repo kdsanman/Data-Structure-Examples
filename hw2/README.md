@@ -1,4 +1,6 @@
  ### FindPalindromes.java
+ Task: Write a program that uses a stack to check for palindromes in each line of a text file. The main method should be in a class called FindPalindromes.java.The text file should be provided as a command line argument (remember String[] args from main). Your program should output the palindromes that it finds in the document. You must write your own MyStack class for this problem. It must be generic, in the sense that you should be able to use this stack with any type of object.  Don't use the built in Stack, instead build your stack from java.util.LinkedList.  Do not use the builtin push/pop methods from LinkedList. 
+ 
  This file contains a program called FindPalindromes.
  This program takes a command line argument, specifically a text file. If
  the text file provided is not found, it will throw a FileNotFound exception
@@ -38,6 +40,8 @@
  ```
  
  ### TwoStackQueue.java
+ Task: Build a queue out of two completely separate stacks, S1 and S2. Enqueu operations happen by pushing the data on to stack 1.  Dequeue operations are completed with a pop from stack 2.
+ 
  This file contains a program called TwoStackQueue. This
  program creates two stacks using Linked Lists and implements unique enqueue
  and dequeue methods to work with the stacks. The enqueue method pushes data
@@ -54,7 +58,7 @@
  java Problem2
  ```
   
- ### Problem2.java
+ ### Problem2.java (Tester class)
  This file contains a program called Problem2. This program
  creates a TwoStackQueue object, enqueues and dequeue some objects, and prints
  out the appropriate dequeued values. It's a tester class for 
